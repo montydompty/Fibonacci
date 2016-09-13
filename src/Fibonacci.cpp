@@ -1,7 +1,27 @@
+/*
+ Nombres:
+ Luis Rodrigo Montoya Rangel
+ Claudio Alberto Ibañez Garduño
+ Descripcion:
+ Programa que calcula el valor de la serie de fibonacci asociado a un numero ingresado por el usuario
+ */
+
 #include <iostream>
 
+/*
+ Funcion que recibe el numero asociado al numero de la serie de fibonacci que se desea calcular 
+ y lo utiliza para calcularlo por recursividad
+ @params: int
+ @result: NULL
+ */
 unsigned int fibonacci(int num);
 
+/*
+ Funcion principal (main). Pide un número al usuario y calcula el numero de la serie de fibonacci asociado
+  por iteraciones y recursividad
+ @params: NULL
+ @result: int
+ */
 int main()
 {
 	unsigned int anterior=0;
